@@ -9,12 +9,20 @@ body {
 }
 
 header,
-.allnotes {
+.allnotes,
+.task-container {
+    display: flex;
+    justify-content: center;
     margin: 10px;
 }
 
+
+.center {
+    margin-top: 30vh;
+}
+
 .allnotes {
-    display: flex;
+
     gap: 10px;
     flex-wrap: wrap;
 }
