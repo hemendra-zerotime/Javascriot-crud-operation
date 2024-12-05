@@ -27,23 +27,27 @@ header,
     flex-wrap: wrap;
 }
 
-.pen {
+.pen,
+.edit {
     background-color: #d5d1c3;
     padding: 12px;
     border-radius: 50%;
     position: absolute;
-    bottom: 12px;
+}
+
+.pen {
+
+    bottom: 8px;
+    right: 67px;
+}
+
+.edit {
+    bottom: 8px;
     right: 15px;
 }
 
-.pen:hover {
+.pen:hover,
+.edit:hover {
     background-color: #F1F0E8;
     cursor: pointer;
-}
-
-.close {
-    position: relative;
-    position: absolute;
-    top: 8px;
-    right: 15px;
 }
