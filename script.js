@@ -52,3 +52,11 @@ function readData() {
     document.querySelector(".card-text").innerHTML = `${task[0].description}`
     document.querySelector(".date").innerHTML = `${task[0].date}`
 }
+
+function editTask() {
+    console.log("i will edit")
+}
+
+function deleteTask() {
+    console.log("i will delete")
+}
