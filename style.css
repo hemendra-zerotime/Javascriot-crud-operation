@@ -28,7 +28,7 @@ header,
 }
 
 .pen,
-.edit {
+.del {
     background-color: #d5d1c3;
     padding: 12px;
     border-radius: 50%;
@@ -41,7 +41,7 @@ header,
     right: 67px;
 }
 
-.edit {
+.del {
     bottom: 8px;
     right: 15px;
 }
