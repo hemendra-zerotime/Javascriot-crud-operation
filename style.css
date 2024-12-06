@@ -35,6 +35,12 @@ header,
     position: absolute;
 }
 
+.date {
+    position: absolute;
+    bottom: 10px;
+    margin-right: 50px;
+}
+
 .pen {
 
     bottom: 8px;
