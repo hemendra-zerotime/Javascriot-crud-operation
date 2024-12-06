@@ -18,7 +18,7 @@ function addTask() {
         if (localStorage.length == 0) {
             task.push(obj)
             localStorage.setItem("taskData", JSON.stringify(task))
-            alert("your task has been added succesfully")
+            alert("your task has been added successfully")
         }
 
         else if (localStorage.length > 0) {
@@ -31,11 +31,21 @@ function addTask() {
             }
             task.push(obj)
             localStorage.setItem("taskData", JSON.stringify(task))
-            alert("your task has been added succesfully")
+            alert("your task has been added successfully")
             return
         }
 
     }
 }
 
+function viewTask() {
+    document.querySelector('#taskli').href = "./todo.html"
+}
 
+function readData() {
+    task = JSON.parse(localStorage.getItem("taskData"))
+    let Taskname = task[0].tname
+    console.log(Taskname)
+    document.querySelector(".card-title").innerHTML = `${task[0].tname}`
+    document.querySelector(".card-text").innerHTML = `${task[0].description}`
+}
