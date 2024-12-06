@@ -50,5 +50,5 @@ function readData() {
     console.log(Taskname)
     document.querySelector(".card-title").innerHTML = `${task[0].tname}`
     document.querySelector(".card-text").innerHTML = `${task[0].description}`
-    document.querySelector(".date").innerHTML = `Dec 25 2024`
+    document.querySelector(".date").innerHTML = `${task[0].date}`
 }
